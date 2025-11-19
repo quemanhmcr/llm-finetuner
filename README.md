@@ -1,13 +1,13 @@
-# Hệ thống Fine-tuning ML Chuyên nghiệp Nâng cao - Phiên bản 2025 Tối ưu
+# LLM Reasoning Finetuner
 
-Một triển khai cấp sản xuất, dựa trên nghiên cứu để fine-tuning các mô hình LLM nhỏ với các kỹ thuật tiên tiến.
+Một framework thử nghiệm để tinh chỉnh (fine-tune) các mô hình ngôn ngữ lớn, tập trung vào khả năng suy luận (reasoning) và tối ưu hóa sở thích (preference optimization). Dự án này tích hợp các kỹ thuật hiện đại như LoRA/QLoRA, DPO và GRPO để phục vụ mục đích nghiên cứu và học tập.
 
-## Tính năng
+## Tính năng chính
 
-- **PEFT tiên tiến**: LoRA, QLoRA, DoRA với các siêu tham số tối ưu
-- **RL nâng cao**: DPO, PPO, GRPO (Tối ưu hóa Chính sách Tương đối Nhóm)
-- **Dataset tập trung vào suy luận**: GSM8K, MetaMathQA, NuminaMath
-- **Tối ưu hóa hiệu suất**: Flash Attention 2, gradient checkpointing, độ chính xác hỗn hợp
+- **PEFT (Parameter-Efficient Fine-Tuning)**: Hỗ trợ LoRA, QLoRA, DoRA.
+- **Preference Optimization**: Tích hợp DPO (Direct Preference Optimization) và GRPO (Group Relative Policy Optimization).
+- **Reasoning Focus**: Hỗ trợ xử lý các dataset suy luận như GSM8K, MetaMathQA.
+- **Performance**: Tích hợp Flash Attention 2, gradient checkpointing.
 - **Đánh giá và giám sát toàn diện**
 
 ## Dựa trên Nghiên cứu Mới nhất
