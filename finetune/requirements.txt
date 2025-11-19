@@ -1,0 +1,23 @@
+# Thư viện ML cốt lõi
+torch>=2.0.0
+transformers>=4.35.0
+peft>=0.6.0
+accelerate>=0.24.0
+bitsandbytes>=0.41.0
+datasets>=2.14.0
+trl>=0.9.0
+
+# Tiện ích bổ sung
+typer>=0.9.0
+numpy>=1.24.0
+tqdm>=4.64.0
+wandb>=0.15.0
+
+# Tùy chọn: Flash Attention 2 (để huấn luyện nhanh hơn)
+# flash-attn>=2.3.0
+
+# Dependencies phát triển
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
